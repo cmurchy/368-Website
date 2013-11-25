@@ -1,0 +1,103 @@
+/* 
+Color Palette
+1st #FF9900, Vitamin C
+2nd #424242, Route 66
+3rd #E9E9E9, Steady Grey
+4th #BCBCBC, BC
+5th #3299BB, Gamebookers Blue
+
+Possible color changes
+Vitamin C to #D76849
+Gamebookers Blue to #79B3B6
+*/
+
+
+li {
+	float: right;
+	list-style: none;
+
+}
+
+a {
+  color: black;
+  display: block;
+  font-family: 'EB Garamond', serif;
+  font-size: 1em;
+  padding: 25px;
+  text-decoration: none;
+}
+
+#nav a:hover {
+  background: #BBA5CF;
+  transition: 1s;
+}
+
+header {
+	margin: 100px 400px 0 475px;
+}
+
+nav {
+	border-bottom: 1px solid #ddd;
+	margin-top: -91px;
+	z-index: 1;
+}
+
+#bio {
+	border-bottom: 1px solid black;
+	font-family: 'Signika Negative', sans-serif; 
+	font-size: 1.35em;
+	font-weight: 700;
+	line-height: 1.30;
+	margin-right: 580px;
+	margin-top: 33px;
+	padding-bottom: 7px;
+}
+
+.image {
+	margin: -450px 0 0 880px;
+}
+
+#bio2 {
+	font-family: 'Signika Negative', sans-serif; 
+	font-size: .95em;
+	font-weight: 300;
+	margin-top: -170px;
+}
+
+/* #find {
+	display: inline-block;
+	font-family: 'Signika Negative', sans-serif; 
+	font-size: .95em;
+	font-weight: 300;
+}*/
+
+#temp {
+	color: darkgrey;
+	font-family: 'Signika Negative', sans-serif; 
+	font-size: .95em;
+	font-weight: 700;
+}
+
+#me {
+	color: black;
+	font-family: 'Signika Negative', sans-serif; 
+	font-size: .95em;
+	font-weight: 300;
+	margin: -615px 0 0 840px;
+}
+
+#footer {
+	border-top: 1px solid #ddd;
+	margin-top: 33px;
+	color: black;
+	font-family: 'EB Garamond', serif;
+  	font-size: .75em;
+}
+
+#social {
+	padding: 25px;
+	margin-top: -90px;
+}
+
+
+
