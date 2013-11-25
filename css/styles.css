@@ -27,6 +27,15 @@ a {
   text-decoration: none;
 }
 
+#p,
+#s,
+#w {
+	text-align: center;
+	font-family: 'Signika Negative', sans-serif; 
+	font-size: .95em;
+	font-weight: 300;
+}
+
 #nav a:hover {
   background: #BBA5CF;
   transition: 1s;
@@ -97,6 +106,27 @@ nav {
 #social {
 	padding: 25px;
 	margin-top: -90px;
+}
+
+#photo {
+	background: url(../img/river.jpg);
+	height: 300px;
+	margin-top: 35px;
+	width: 960px;
+}
+
+#school {
+	background: url(../img/jimmy.jpg);
+	height: 300px;
+	margin-top: 5px;
+	width: 960px;
+}
+
+#progress {
+	background: url(../img/dad.png);
+	height: 300px;
+	margin-top: 5px;
+	width: 960px;
 }
 
 
