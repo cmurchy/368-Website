@@ -107,6 +107,7 @@ ul {
 	color: black;
 	font-family: 'EB Garamond', serif;
   	font-size: .75em;
+  	margin-bottom: 30px;
   	margin-top: 50px;
 }
 
@@ -155,5 +156,9 @@ ul {
 	background: url(../img/jimmy.jpg);
 	height: 300px;
 	width: 960px;
+}
+
+#work {
+	margin-top: 50px;
 }
 
