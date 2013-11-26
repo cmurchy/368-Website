@@ -49,11 +49,6 @@ footer ul {
 	margin-top: 20px;
 }
 
-header {
-	border-bottom: 1px solid #ddd;
-	position: relative;
-}
-
 li {
 	list-style: none;
 }
@@ -74,10 +69,11 @@ nav a {
   color: black;
   display: block;
   font-family: 'EB Garamond', serif;
-  font-size: 1em;
+  font-size: .95em;
   margin-bottom: 15px;
   padding: 100px 25px 10px 25px;
   text-decoration: none;
+  text-transform: uppercase;
   transition: background 1s linear;
 }
 
@@ -86,6 +82,11 @@ ul {
 	padding: 0;
 }
 
+#background {
+	background-color: #ddd;
+	margin-top: 50px;
+	padding: 50px 1000px;
+}
 
 #bio {
 	border-bottom: 1px solid black;
@@ -102,6 +103,21 @@ ul {
 	margin-top: -10px;
 }
 
+#caps {
+	font-family: 'Signika Negative', sans-serif; 
+	font-size: 1.25em;
+	font-weight: 700;
+}
+
+#contact {
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+
+#find {
+	margin-bottom: 20px;
+}
+
 #footer {
 	border-top: 1px solid #ddd;
 	color: black;
@@ -111,19 +127,40 @@ ul {
   	margin-top: 50px;
 }
 
+#hello {
+	font-family: 'EB Garamond', serif;
+	font-size: .85em;
+	line-height: 1.15em;
+	margin-top: 45px;
+}
+
 #image {
 	margin-top: 25px;
+}
+
+#info {
+	font-family: 'EB Garamond', serif;
+	font-size: 1.85em;
+	margin-left: -600px;
+	text-align: right;
 }
 
 #logo img {
 	bottom: 0;
 	left: 0;
 	position: absolute;
+	margin-left: 5px;
 }
 
 #logo {
 	display: block;
 	height: 146px;
+	position: relative;
+}
+
+#mystory {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 25px;
 	position: relative;
 }
 
@@ -152,10 +189,27 @@ ul {
 	width: 960px;
 }
 
+#quote {
+	font-family: 'EB Garamond', serif;
+	font-size: 1.85em;
+	margin-left: -450px;
+}
+
 #school {
 	background: url(../img/jimmy.jpg);
 	height: 300px;
 	width: 960px;
+}
+
+#sosay {
+	font-family: 'Signika Negative', sans-serif; 
+	font-size: 3.95em;
+	font-weight: 300;
+	margin-left: -325px;
+}
+
+#sosay p {
+	margin-right: 75px;
 }
 
 #work {
