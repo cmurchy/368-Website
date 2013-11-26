@@ -5,6 +5,7 @@ Color Palette
 3rd #E9E9E9, Steady Grey
 4th #BCBCBC, BC
 5th #3299BB, Gamebookers Blue
+6th #BBA5CF, Purple
 
 Possible color changes
 Vitamin C to #D76849
@@ -12,8 +13,53 @@ Gamebookers Blue to #79B3B6
 */
 
 
+aside {
+	margin-top: 45px;
+}
+
+aside a {
+	color: black;
+	font-family: 'Signika Negative', sans-serif; 
+	font-size: .85em;
+	font-weight: 300;
+	line-height: .25em;
+	text-decoration: none;
+}
+
+h3 {
+	color: darkgrey;
+	font-family: 'Signika Negative', sans-serif; 
+	font-size: .95em;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+}
+
+footer li {
+	display: inline-block;
+	padding: 0 15px;
+}
+
+footer p {
+	margin-top: 20px;
+}
+
+footer ul {
+	float: right;
+	margin-top: 20px;
+}
+
+header {
+	border-bottom: 1px solid #ddd;
+	position: relative;
+}
+
 li {
 	list-style: none;
+}
+
+main img {
+	width: 100%;
 }
 
 nav ul {
@@ -35,66 +81,37 @@ nav a {
   transition: background 1s linear;
 }
 
-#nav a:hover {
-  background: #BBA5CF;
-}
-
-h3 {
-	margin: 0;
-	padding: 0;
-	font-size: 1em;
-}
-
 ul {
 	margin: 0;
 	padding: 0;
 }
 
 
-
-footer ul {
-	float: right;
-	margin-top: 20px;
-}
-
-footer li {
-	display: inline-block;
-	padding: 0 15px;
-}
-
-footer p {
-	margin-top: 20px;
-}
-
-#p,
-#s,
-#w {
-	text-align: center;
-	font-family: 'Signika Negative', sans-serif; 
-	font-size: .95em;
-	font-weight: 300;
-}
-
-
-
-
-
-header {
-	border-bottom: 1px solid #ddd;
-	position: relative;
-}
-
 #bio {
 	border-bottom: 1px solid black;
 	font-family: 'Signika Negative', sans-serif; 
 	font-size: 1.35em;
 	font-weight: 700;
-	
-	
+	padding-bottom: 10px;
 }
 
-main img {
-	width: 100%;
+#bio2 {
+	font-family: 'Signika Negative', sans-serif; 
+	font-size: .95em;
+	font-weight: 300;
+	margin-top: -10px;
+}
+
+#footer {
+	border-top: 1px solid #ddd;
+	color: black;
+	font-family: 'EB Garamond', serif;
+  	font-size: .75em;
+  	margin-top: 50px;
+}
+
+#image {
+	margin-top: 25px;
 }
 
 #logo img {
@@ -109,52 +126,21 @@ main img {
 	position: relative;
 }
 
+#nav a:hover {
+  background: lightgrey;
+}
 
-#bio2 {
+#p,
+#s,
+#w {
+	text-align: center;
 	font-family: 'Signika Negative', sans-serif; 
 	font-size: .95em;
 	font-weight: 300;
-	
-}
-
-
-
-#temp {
-	color: darkgrey;
-	font-family: 'Signika Negative', sans-serif; 
-	font-size: .95em;
-	font-weight: 700;
-}
-
-#me {
-	color: black;
-	font-family: 'Signika Negative', sans-serif; 
-	font-size: .95em;
-	font-weight: 300;
-	
-}
-
-#footer {
-	border-top: 1px solid #ddd;
-	
-	color: black;
-	font-family: 'EB Garamond', serif;
-  	font-size: .75em;
-}
-
-#social {
-	
 }
 
 #photo {
 	background: url(../img/river.jpg);
-	height: 300px;
-
-	width: 960px;
-}
-
-#school {
-	background: url(../img/jimmy.jpg);
 	height: 300px;
 	width: 960px;
 }
@@ -164,3 +150,10 @@ main img {
 	height: 300px;
 	width: 960px;
 }
+
+#school {
+	background: url(../img/jimmy.jpg);
+	height: 300px;
+	width: 960px;
+}
+
