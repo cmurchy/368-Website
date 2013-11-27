@@ -26,6 +26,12 @@ aside a {
 	text-decoration: none;
 }
 
+body {
+	background: url('../img/line.png');
+	background-repeat: repeat-x;
+	background-position: 0px 110px;
+}
+
 h3 {
 	color: darkgrey;
 	font-family: 'Signika Negative', sans-serif; 
@@ -82,6 +88,31 @@ ul {
 	padding: 0;
 }
 
+
+
+
+
+/*
+.camera_wrap {
+	display: none;
+	float: left;
+	position: relative;
+	width: 100%;
+	z-index: 0;
+}
+
+.cameraCont, .cameraContents {
+	height: 100%;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+*/
+
+
+
+
+
 #bio {
 	border-bottom: 1px solid black;
 	font-family: 'Signika Negative', sans-serif; 
@@ -104,7 +135,6 @@ ul {
 }
 
 #contact {
-	border-bottom: 1px solid #ddd;
 	position: relative;
 }
 
@@ -122,6 +152,7 @@ ul {
 }
 
 #hello {
+	background-color: #fff;
 	font-family: 'EB Garamond', serif;
 	font-size: .95em;
 	line-height: 1.15em;
@@ -157,7 +188,6 @@ ul {
 }
 
 #mystory {
-	border-bottom: 1px solid #ddd;
 	margin-bottom: 25px;
 	position: relative;
 }
@@ -175,27 +205,9 @@ ul {
 	font-weight: 300;
 }
 
-#photo {
-	background: url(../img/river.jpg);
-	height: 300px;
-	width: 960px;
-}
-
-#progress {
-	background: url(../img/dad.png);
-	height: 300px;
-	width: 960px;
-}
-
 #quote {
 	font-family: 'EB Garamond', serif;
 	font-size: 1.85em;
-}
-
-#school {
-	background: url(../img/jimmy.jpg);
-	height: 300px;
-	width: 960px;
 }
 
 #sosay {
