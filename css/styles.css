@@ -89,17 +89,14 @@ ul {
 }
 
 
-/*==============================
-        Gallery
-==============================*/
+
  
-/* HEADINGS */
+/*
 .gallery figure h1 {
 color: lightgrey;
 position: absolute;
 right: 0;
 }
-
 .gallery .control-button {
   color: #ccc;
   color: rgba(255, 255, 255, 0.4);
@@ -109,10 +106,6 @@ right: 0;
   color: white;
   color: rgba(255, 255, 255, 0.8);
 }
- 
-/*
-        Theme controls how everything looks in Gallery CSS.
-*/
 .gallery {
   position: relative;
 }
@@ -136,6 +129,8 @@ right: 0;
   text-decoration: none;
   transition: color .1s;
 }
+*/
+
 
 
 /*
@@ -168,10 +163,12 @@ right: 0;
 }
 
 #bio2 {
+	border-bottom: 1px solid black;
 	font-family: 'Signika Negative', sans-serif; 
 	font-size: .95em;
 	font-weight: 300;
-	margin-top: -10px;
+	margin-top: 11px;
+	padding-bottom: 10px;
 }
 
 #caps {
@@ -207,7 +204,7 @@ right: 0;
 }
 
 #image {
-	margin-top: 25px;
+	margin-top: 0px;
 }
 
 #info {
@@ -232,6 +229,10 @@ right: 0;
 	background-color: #ddd;
 	margin-top: 50px;
 	padding: 50px 0px;
+}
+
+#me {
+	margin-top: -221px;
 }
 
 #mystory {
@@ -270,4 +271,671 @@ right: 0;
 #work {
 	margin-top: 50px;
 }
+
+
+
+
+
+
+
+/**************************************************************/
+/****************** GRID STRUCTURE STYLING ********************/
+/**************************************************************
+
+Contains all the grid structure for the framework, column + width
+of column in % as well as specific classes for styling:
+
+.container  (basic container)
+.row		(row for each 100% width of column's)
+.column10
+.column20
+.column25   (4 column layout)
+.column30
+.column33   (3 column layout)
+.column40
+.column50   (2 column layout)
+.column60
+.column66
+.column70
+.column75
+.column80
+.column90
+.column100  (1 column layout)
+.header10
+.header20
+.header25
+.header30
+.header33
+.header40
+.header50
+.header60
+.header66
+.header70
+.header75
+.header80
+.header90
+.header100
+.footer10
+.footer20
+.footer25
+.footer30
+.footer33
+.footer40
+.footer50
+.footer60
+.footer66
+.footer70
+.footer75
+.footer80
+.footer90
+.footer100
+.column-box
+
+*/
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	padding: 0px;
+	clear: both;
+}
+
+.row {
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.column100 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.column90 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 90%;
+}
+
+.column80 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 80%;
+}
+
+.column75 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 75%;
+}
+
+.column70 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 70%;
+}
+
+.column66 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 66.66666%;
+}
+
+.column60 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 60%;
+}
+
+.column50 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+}
+
+.column40 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 40%;
+}
+
+.column33 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 33.333333%;
+}
+
+.column30 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 30%;
+}
+
+.column25 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 25%;
+}
+
+.column20 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 20%;
+}
+
+.column10 {
+	float: left;
+	margin: 1px 0;
+	padding: 0px;
+	width: 10%;
+}
+
+.header100 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.header90 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 90%;
+}
+
+.header80 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 80%;
+}
+
+.header75 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 75%;
+}
+
+.header70 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 70%;
+}
+
+.header66 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 66.66666%;
+}
+
+.header60 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 60%;
+}
+
+.header50 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+}
+
+.header40 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 40%;
+}
+
+.header33 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 33.333333%;
+}
+
+.header30 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 30%;
+}
+
+.header25 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 25%;
+}
+
+.header20 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 20%;
+}
+
+.header10 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 10%;
+}
+
+.footer100 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+
+.footer90 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 90%;
+}
+
+.footer80 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 80%;
+}
+
+.footer75 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 75%;
+}
+
+.footer70 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 70%;
+}
+
+.footer66 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 66.66666%;
+}
+
+.footer60 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 60%;
+}
+
+.footer50 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+}
+
+.footer40 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 40%;
+}
+
+.footer33 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 33.333333%;
+}
+
+.footer30 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 30%;
+}
+
+.footer25 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 25%;
+}
+
+.footer20 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 20%;
+}
+
+.footer10 {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 10%;
+}
+
+.column-box {
+	margin: 0 5px;
+}
+
+#wrapper:after,
+#main:after,
+header:after,
+footer:after,
+.container:after,
+.row:after,
+.column-box:after,
+.header100:after,
+.header90:after,
+.header80:after,
+.header75:after,
+.header70:after,
+.header66:after,
+.header60:after,
+.header50:after,
+.header40:after,
+.header33:after,
+.header30:after,
+.header25:after,
+.header20:after,
+.header10:after,
+.column100:after,
+.column90:after,
+.column80:after,
+.column75:after,
+.column70:after,
+.column66:after,
+.column60:after,
+.column50:after,
+.column40:after,
+.column33:after,
+.column30:after,
+.column25:after,
+.column20:after,
+.column10:after,
+.footer100:after,
+.footer90:after,
+.footer80:after,
+.footer75:after,
+.footer70:after,
+.footer66:after,
+.footer60:after,
+.footer50:after,
+.footer40:after,
+.footer33:after,
+.footer30:after,
+.footer25:after,
+.footer20:after,
+.footer10:after,
+nav:after,
+ul:after,
+#slideshow:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+
+
+
+
+
+ 
+/**************************************************************/
+/******************** MEDIAQUERY RESPONSIVE *******************/
+/**************************************************************
+
+Using mediaquery's this will make the site respond at 3 different
+screen widths:
+
+980px +
+768px - 979px
+480px - 767px
+0px - 479px
+
+*/
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+.container {
+	width: 768px;
+}
+
+}
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+
+.container {
+	width: 100%;
+}
+
+.column100 {
+	float: none;
+	width: 100%;
+}
+
+.column90 {
+	float: none;
+	width: 100%;
+}
+
+.column80 {
+	float: none;
+	width: 100%;
+}
+
+.column75 {
+	float: none;
+	width: 100%;
+}
+
+.column70 {
+	float: none;
+	width: 100%;
+}
+
+.column66 {
+	float: none;
+	width: 100%;
+}
+
+.column60 {
+	float: none;
+	width: 100%;
+}
+
+.column50 {
+	float: none;
+	width: 100%;
+}
+
+.column40 {
+	float: none;
+	width: 100%;
+}
+
+.column33 {
+	float: none;
+	width: 100%;
+}
+
+.column30 {
+	float: none;
+	width: 100%;
+}
+
+.column25 {
+	float: none;
+	width: 100%;
+}
+
+.column20 {
+	float: none;
+	width: 100%;
+}
+
+.column10 {
+	float: none;
+	width: 100%;
+}
+
+.column-box {
+	margin: 0px;
+}
+
+}
+
+@media (min-width: 0px) and (max-width: 479px) {
+
+.container {
+	width: 100%;
+}
+
+.column100 {
+	float: none;
+	width: 100%;
+}
+
+.column90 {
+	float: none;
+	width: 100%;
+}
+
+.column80 {
+	float: none;
+	width: 100%;
+}
+
+.column75 {
+	float: none;
+	width: 100%;
+}
+
+.column70 {
+	float: none;
+	width: 100%;
+}
+
+.column66 {
+	float: none;
+	width: 100%;
+}
+
+.column60 {
+	float: none;
+	width: 100%;
+}
+
+.column50 {
+	float: none;
+	width: 100%;
+}
+
+.column40 {
+	float: none;
+	width: 100%;
+}
+
+.column33 {
+	float: none;
+	width: 100%;
+}
+
+.column30 {
+	float: none;
+	width: 100%;
+}
+
+.column25 {
+	float: none;
+	width: 100%;
+}
+
+.column20 {
+	float: none;
+	width: 100%;
+}
+
+.column10 {
+	float: none;
+	width: 100%;
+}
+
+.column-box {
+	margin: 0px;
+}
+
+}
+
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+
+
+/**************************************************************/
+/******************* CUSTOM ICON FONT SET *********************/
+/**************************************************************
+
+Custom icon font included in every package. This will include your
+links to icons for page use. Link to index of page found in the 
+document folder.
+
+*/
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('../fonts/icomoon.eot');
+	src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
 

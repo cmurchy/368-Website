@@ -11,8 +11,8 @@
         <link href="favicon.ico" rel="icon" type="image/x-icon" />
         
         <link rel="stylesheet" href="css/normalize.css" />
-        <link rel="stylesheet" href="css/gallery.theme.css">
-        <link rel="stylesheet" href="css/960.css" />
+        <link rel="stylesheet" href="css/camera.css" />
+        <link rel="stylesheet" href="css/cornerstone.css" />
         <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Signika+Negative:300,700' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/styles.css" />
@@ -20,17 +20,17 @@
 <body>
 
   <!-- HEADER -->   
-    <header class="container_12" id="home">
+    <header class="container" id="home">
 
-      <div class="grid_2" id="hello">
+      <div class="column20" id="hello">
         <p><span id="caps">HELLO!</span> I’m Chaz, I am a design student at Eastern Washington University. A father, husband, decent golfer and photographer who likes to be creative! Thanks for stopping by!</p>
       </div>
       
-      <div class="grid_1" id="logo">
+      <div class="column10" id="logo">
         <img src="img/home-logo.png" />
       </div>
         
-      <nav class="grid_9">
+      <nav class="column70">
         <ul id="nav">
           <li><a href="index.html">Work</a></li>
           <li><a href="index-mystory.html">My Story</a></li>
@@ -41,8 +41,18 @@
     </header>
     
  <!-- MAIN BODY --> 
-<main class="container_12" id="work">
+<main class="container" id="work">
 
+<div id="slideshow">
+  <div class="camera_wrap" id="camera_wrap_1">
+    <div data-thumb="img/street.jpg" data-src="img/street.jpg"></div>
+    <div data-thumb="img/wine1.jpg" data-src="img/wine1.jpg"></div>
+    <div data-thumb="img/LostLake.jpg" data-src="img/LostLake.jpg"></div>
+    <div data-thumb="img/kinley.jpg" data-src="img/kinley.jpg"></div>
+  </div>
+</div>
+
+<!--
 <article>
   <div class="gallery items-5">
     <div id="item-1" class="control-operator"></div>
@@ -84,10 +94,8 @@
     <a href="#item-5" class="control-button">&#9786;</a>
   </div>
 </div>
-       </article>
-
-
-
+</article>
+-->
 
 <!--
   <div class="grid_12">
@@ -107,13 +115,13 @@
 </main>
 
 <!-- FOOTER -->
-    <footer class="container_12" id="footer">
+    <footer class="container" id="footer">
 
-      <div class="grid_6">
+      <div class="column50">
         <p>From the mind of Chaz Murchy  &sdot;  &copy; All rights reserved</p>
       </div>
             
-      <div class="grid_6">
+      <div class="column50">
         <ul>
           <li><a href="http://instagram.com/_chaz"><img src="img/instagram.png"></a></li>
           <li><a href="http://linkedin.com/in/cmurchy"><img src="img/linkedin.png"></a></li>
