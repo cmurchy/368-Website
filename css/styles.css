@@ -164,7 +164,10 @@ right: 0;
 */
 
 
-
+#about {
+	margin: 0 1.6%;
+	padding: 10px;
+}
 
 
 #bio {
@@ -224,8 +227,13 @@ right: 0;
 }
 
 #info {
-	font-family: 'EB Garamond', serif;
-	font-size: 1.85em;
+	font-family: 'bebas_neueregular', sans-serif;
+	font-size: 1.325em;
+	font-weight: 300;
+}
+
+#info p {
+	float: right;
 }
 
 #logo img {
@@ -242,9 +250,7 @@ right: 0;
 }
 
 #main {
-	background-color: #ddd;
-	margin-top: 50px;
-	padding: 50px 0px;
+	padding: 5.21% 0;
 }
 
 #me {
@@ -270,8 +276,14 @@ right: 0;
 }
 
 #quote {
-	font-family: 'EB Garamond', serif;
+	font-family: 'bebas_neueregular', sans-serif;
 	font-size: 1.85em;
+	text-align: center;
+	font-weight: 300;
+}
+
+#quote p {
+	margin-right: 11%;
 }
 
 #sosay {
@@ -281,7 +293,8 @@ right: 0;
 }
 
 #sosay p {
-	margin-right: 75px;
+	text-align: center;
+	margin-right: 10%;
 }
 
 #work {
@@ -420,8 +433,8 @@ of column in % as well as specific classes for styling:
 
 .column40 {
 	float: left;
-	margin: 0 1.6%;
-	padding: 10px;
+	margin: 0px;
+	padding: 0px;
 	width: 40%;
 }
 
@@ -835,6 +848,11 @@ screen widths:
 }
 
 @media (min-width: 0px) and (max-width: 479px) {
+
+#about {
+	margin: 0px;
+	padding: 0px;
+}
 
 .container {
 	width: 100%;
