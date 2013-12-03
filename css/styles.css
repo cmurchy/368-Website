@@ -103,69 +103,6 @@ ul {
 	padding: 0;
 }
 
-
-
- 
-/*
-.gallery figure h1 {
-color: lightgrey;
-position: absolute;
-right: 0;
-}
-.gallery .control-button {
-  color: #ccc;
-  color: rgba(255, 255, 255, 0.4);
-}
- 
-.gallery .control-button:hover {
-  color: white;
-  color: rgba(255, 255, 255, 0.8);
-}
-.gallery {
-  position: relative;
-}
-.gallery .item {
-  height: 400px;
-  overflow: hidden;
-  text-align: center;
-  background: #4d87e2;
-}
-.gallery .controls {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-.gallery .control-button {
-  display: inline-block;
-  margin: 0 .02em;
-  font-size: 3em;
-  text-align: center;
-  text-decoration: none;
-  transition: color .1s;
-}
-*/
-
-
-
-/*
-.camera_wrap {
-	display: none;
-	float: left;
-	position: relative;
-	width: 100%;
-	z-index: 0;
-}
-
-.cameraCont, .cameraContents {
-	height: 100%;
-	position: relative;
-	width: 100%;
-	z-index: 1;
-}
-*/
-
-
 #about {
 	margin: 0;
 	padding: 0;
@@ -854,10 +791,10 @@ screen widths:
 
 @media (min-width: 0px) and (max-width: 479px) {
 
-#about {
-	margin: 0px;
-	padding: 0px;
-}
+nav a {
+	font-size: .25em;
+	padding: 50px 50px 10px;
+	}
 
 .container {
 	width: 100%;
