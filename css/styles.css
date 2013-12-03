@@ -791,10 +791,13 @@ screen widths:
 
 @media (min-width: 0px) and (max-width: 479px) {
 
-nav a {
-	font-size: .25em;
-	padding: 50px 50px 10px;
+nav li {
+	display: block;
 	}
+
+nav ul {
+	float: left;
+}
 
 .container {
 	width: 100%;
