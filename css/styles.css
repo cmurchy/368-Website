@@ -795,8 +795,9 @@ nav li {
 	display: block;
 	}
 
-nav ul {
-	float: left;
+#info p {
+	float: none;
+	text-align: center;
 }
 
 .container {
@@ -877,4 +878,8 @@ nav ul {
 	margin: 0px;
 }
 
+}
+
+body {
+width: 100%;
 }
