@@ -85,7 +85,7 @@ nav li {
 }
 
 nav a {
-  color: black;
+  color: #828282;
   display: block;
   font-family: 'bebas_neueregular', sans-serif;
   font-size: .95em;
@@ -111,19 +111,23 @@ ul {
 
 #bio {
 	border-bottom: 1px solid lightgrey;
-	font-family: 'bebas_neueregular', sans-serif;
-	font-size: 1.25em; 
+	color: #111;
+	font-family: "proxima-nova",sans-serif;
+	font-size: 1em; 
 	font-weight: 600;
-	padding-bottom: 3%;
+	line-height: 1.5em;
+	padding-bottom: 4%;
+	padding-top: 6%;
 }
 
 #bio2 {
 	border-bottom: 1px solid lightgrey;
+	color: #828282;
 	font-family: 'bebas_neueregular', sans-serif; 
-	font-size: .95em;
+	font-size: .75em;
 	font-weight: 300;
+	line-height: 1.5em;
 	margin-right: 25%;
-	margin-top: -2%;
 	padding-bottom: 3%;
 }
 
@@ -134,7 +138,7 @@ ul {
 }
 
 #chaz {
-	font-size: 1.5em;
+	font-size: 1.6em;
 	font-weight: 700;
 }
 
@@ -219,6 +223,18 @@ ul {
 #nav a:hover {
   background: lightgrey;
 }
+
+#nav a:active {
+  color: #111;
+}
+
+
+
+body #top .active-link > a {
+color: #111;
+}
+
+
 
 
 
