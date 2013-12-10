@@ -807,12 +807,43 @@ screen widths:
 
 @media (min-width: 0px) and (max-width: 479px) {
 
+
+
+#bio {
+	margin-left: 3%;
+}
+
+#bio2 {
+	margin: 0 11% 0 3%;
+}
+
+footer p {
+	margin-left: 10%;
+}
+
+footer ul {
+	margin-right: 75px;
+}
+
+main img {
+	width: 100%;
+}
+
+#me {
+	margin-left: 3%;
+}
+
+
+nav a {
+	padding: 18px;
+}
+
 nav li {
 	display: inline-block;
 	}
 
-nav a {
-	padding: 18px;
+nav ul {
+	margin-right: 2%;
 }
 
 #info p {
