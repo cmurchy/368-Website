@@ -808,8 +808,12 @@ screen widths:
 @media (min-width: 0px) and (max-width: 479px) {
 
 nav li {
-	display: block;
+	display: inline-block;
 	}
+
+nav a {
+	padding: 18px;
+}
 
 #info p {
 	float: none;
