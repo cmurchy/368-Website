@@ -273,66 +273,7 @@ color: #111;
 }
 
 
-
-
-
-
-
-/**************************************************************/
-/****************** GRID STRUCTURE STYLING ********************/
-/**************************************************************
-
-Contains all the grid structure for the framework, column + width
-of column in % as well as specific classes for styling:
-
-.container  (basic container)
-.row		(row for each 100% width of column's)
-.column10
-.column20
-.column25   (4 column layout)
-.column30
-.column33   (3 column layout)
-.column40
-.column50   (2 column layout)
-.column60
-.column66
-.column70
-.column75
-.column80
-.column90
-.column100  (1 column layout)
-.header10
-.header20
-.header25
-.header30
-.header33
-.header40
-.header50
-.header60
-.header66
-.header70
-.header75
-.header80
-.header90
-.header100
-.footer10
-.footer20
-.footer25
-.footer30
-.footer33
-.footer40
-.footer50
-.footer60
-.footer66
-.footer70
-.footer75
-.footer80
-.footer90
-.footer100
-.column-box
-
-*/
-
+/* GRID */
 .container {
 	width: 960px;
 	margin: 0 auto;
@@ -703,22 +644,9 @@ ul:after,
     visibility: hidden;
 }
 
-
-/**************************************************************/
-/**************************************************************/
-/**************************************************************/
-
-
-
-
-
- 
 /**************************************************************/
 /******************** MEDIAQUERY RESPONSIVE *******************/
 /**************************************************************
-
-Using mediaquery's this will make the site respond at 3 different
-screen widths:
 
 980px +
 768px - 979px

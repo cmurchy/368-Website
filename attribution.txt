@@ -1,0 +1,5 @@
+================
+  Attribution
+================
+
+Javascript Gallery: http://coreysizemore.github.io/csizemore/
