@@ -1,0 +1,160 @@
+<!-- MAIN INDEX -->
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+
+  <meta charset="utf-8" />
+        
+          <title>Chaz Designs</title>
+      	 
+        <link href="favicon.ico" rel="icon" type="image/x-icon" />
+        
+        <link rel="stylesheet" href="css/normalize.css" media="screen" />
+        <link rel="stylesheet" href="css/camera.css" media="screen" />
+        <link href='http://fonts.googleapis.com/css?family=EB+Garamond' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Signika+Negative:300,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/styles.css" media="screen" />
+
+        <meta name="viewport" content="width=device-width, initial-scale =1.0, user-scalable= no">
+</head>    
+<body>
+
+  <!-- HEADER -->   
+    <header class="container" id="home">
+
+<!--  <div class="column20" id="hello">
+        <p><span id="caps">HELLO!</span> I&rsquo;m Chaz, I am a design student at Eastern Washington University. A father, husband, decent golfer and photographer who likes to be creative! Thanks for stopping by!</p>
+      </div> -->
+      
+      <div class="column10" id="logo">
+        <img src="images/home-logo.png" />
+      </div>
+        
+      <nav class="column90" id="top">
+        <ul id="nav">
+          <li><a href="index.html">My Story</a></li>
+          <li class="active-link"><a href="index-photography.html">Photography</a></li>
+          <!-- <li><a href="#">Design</a></li> -->
+          <li><a href="index-contact.html">Contact</a></li>
+        </ul>
+      </nav>
+            
+    </header>
+    
+   
+<main class="container" id="work">
+
+<!-- MAIN BODY
+<div id="slideshow">
+  <div class="camera_wrap" id="camera_wrap_1">
+    <div data-thumb="images/river.jpg" data-src="images/river.jpg"></div>
+    <div data-thumb="images/LostLake.jpg" data-src="images/LostLake.jpg"></div>
+    <div data-thumb="images/quinn.jpg" data-src="images/quinn.jpg"></div>
+    <div data-thumb="images/kinley.jpg" data-src="images/kinley.jpg"></div>
+    <div data-thumb="images/kinley-3.jpg" data-src="images/kinley-3.jpg"></div>
+    <div data-thumb="images/roxi.jpg" data-src="images/roxi.jpg"></div>
+    <div data-thumb="images/ryder.jpg" data-src="images/ryder.jpg"></div>
+    <div data-thumb="images/kinley-2.jpg" data-src="images/kinley-2.jpg"></div>
+    <div data-thumb="images/lou.jpg" data-src="images/lou.jpg"></div>
+    <div data-thumb="images/cups.jpg" data-src="images/cups.jpg"></div>
+    <div data-thumb="images/king.jpg" data-src="images/king.jpg"></div>
+    <div data-thumb="images/street.jpg" data-src="images/street.jpg"></div>
+    <div data-thumb="images/alley.jpg" data-src="images/alley.jpg"></div>
+    <div data-thumb="images/wires.jpg" data-src="images/wires.jpg"></div>
+    <div data-thumb="images/winebar.jpg" data-src="images/winebar.jpg"></div>
+  </div>
+</div>
+
+
+<article>
+  <div class="gallery items-5">
+    <div id="item-1" class="control-operator"></div>
+    <div id="item-2" class="control-operator"></div>
+    <div id="item-3" class="control-operator"></div>
+    <div id="item-4" class="control-operator"></div>
+    <div id="item-5" class="control-operator"></div>
+ 
+  <figure class="item">
+    <h1>Slide 1</h1>
+                    <img src="img/quinn.jpg" />
+  </figure>
+
+  <figure class="item">
+    <h1>Slide 2</h1>
+                    <img src="img/roxi.jpg" />
+  </figure>
+
+  <figure class="item">
+    <h1>Slide 3</h1>
+                    <img src="img/lake.jpg" />
+  </figure>
+                
+                <figure class="item">
+    <h1>Slide 4</h1>
+                    <img src="img/river.jpg" />
+  </figure>
+                
+                <figure class="item">
+    <h1>Slide 5</h1>
+                    <img src="img/kinley.jpg" />
+  </figure>
+
+  <div class="controls">
+    <a href="#item-1" class="control-button">&#9786;</a>
+    <a href="#item-2" class="control-button">&#9786;</a>
+    <a href="#item-3" class="control-button">&#9786;</a>
+    <a href="#item-4" class="control-button">&#9786;</a>
+    <a href="#item-5" class="control-button">&#9786;</a>
+  </div>
+</div>
+</article>
+-->
+
+<!--
+  <div class="grid_12">
+    <img src="img/river.jpg" class="full-width-image" />
+  </div>
+
+<div class="grid_12" id="slideshow">
+  <div class="camera_wrap" id="camera_wrap_1">
+    <div data-thumb="img/river.jpg" data-src="img/river.jpg"></div>
+    <div data-thumb="img/LostLake.jpg" data-src="img/LostLake.jpg"></div>
+    <div data-thumb="img/quinn.jpg" data-src="img/quinn.jpg"></div>
+    <div data-thumb="img/roxi.jpg" data-src="img/roxi.jpg"></div>
+  </div>
+</div>
+-->
+
+</main>
+
+<!-- FOOTER -->
+    <footer class="container" id="footer">
+
+      <div class="column50">
+        <p>From the mind of Chaz Murchy  &sdot;  &copy; All rights reserved</p>
+      </div>
+            
+      <div class="column50">
+        <ul>
+          <li><a href="http://instagram.com/_chaz"><img src="images/instagram.png"></a></li>
+          <li><a href="http://linkedin.com/in/cmurchy"><img src="images/linkedin.png"></a></li>
+          <li><a href="http://twitter.com/csmurchy"><img src="images/twitter.png"></a></li>
+        </ul>
+       </div>
+
+    </footer>
+
+</body>
+
+<!-- Js
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+
+<script type='text/javascript' src="js/camera.js"></script>
+<script type='text/javascript' src="js/easing.js"></script>
+<script type='text/javascript' src="js/mobile.js"></script>
+	
+<script type="text/javascript" src="js/scripts.js"></script>
+</html>
+-->
